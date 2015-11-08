@@ -6,8 +6,8 @@ pygame.init()
 by Eric J.Parfitt (ejparfitt@gmail.com)
 
 This program starts with a set of twigs, and draws branches from the tips
-of twigs going aroind the "tree" clockwise.  When two branches colide,
-the other twig on that node disapears.
+of twigs going aroind the "tree" clockwise.  If a branch would collide
+with another branch, both branches on that node are not added.
 
 Version: 1.0 alpha
 """
